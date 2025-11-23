@@ -1,108 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kashif Aziz - Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kashif Aziz — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">Kashif Aziz</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact" class="contact-btn">Contact</a></li>
-        </ul>
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="#top" class="brand">Kashif Aziz</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#certs">Certifications</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h2>Quality Assurance & Audit Executive</h2>
-            <h1>PROFESSIONALISM MAKES US HAPPY.<br>TAKE A SHOT.</h1>
-            <a href="#profile" class="hero-btn">View Portfolio</a>
+  </header>
+
+  <main id="top">
+    <!-- Hero Section -->
+    <section class="hero gradient-bg">
+      <div class="container hero-inner reveal">
+        <div class="hero-left">
+          <h1>Hi, I'm <span class="accent">Kashif Aziz</span></h1>
+          <p class="role">Revenue Cycle Management Specialist</p>
+          <p class="summary">
+            Experienced Revenue Cycle Management Specialist with 3+ years in healthcare operations, billing, and audits. Skilled in patient registration, insurance verification, charge capture, claim submission, payment posting, and denial management. Proven ability to reduce claim denials, optimize cash flow, and ensure compliance with HIPAA and payer regulations. Adept at collaborating with cross-functional teams to enhance billing accuracy and streamline workflows.
+          </p>
+          <div class="cta">
+            <a class="btn primary" href="mailto:kashifaziz392@gmail.com">Email Me</a>
+            <a class="btn outline" href="Resume.pdf" target="_blank" rel="noreferrer">My Resume</a>
+            <a class="btn ghost" href="https://www.linkedin.com/in/kashif-aziz497" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
         </div>
-        <div class="hero-image"></div>
-    </section>
-    <section class="user-experience">
-        <h3>HOW WE MAKE USER EXPERIENCES</h3>
-        <p>
-            You can't end up ordinary. The more you strive, the more you learn, and the more you grow. Let's work together to achieve your goals!
-        </p>
-        <div class="contact-details">
-            <p><strong>Phone:</strong> +92344-9706327</p>
-            <p><strong>Email:</strong> kashifaziz392@gmail.com</p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kashif-aziz497" target="_blank">kashif-aziz497</a></p>
+        <div class="hero-right">
+          <div class="avatar-wrap">
+            <img src="profile.jpg" alt="Kashif Aziz" class="avatar">
+            <div class="glow"></div>
+          </div>
+          <ul class="softwares">
+            <li>WebSoft</li>
+            <li>TalkEHR</li>
+            <li>CareCloud</li>
+            <li>Intergy</li>
+            <li>AdvancedMD</li>
+          </ul>
         </div>
+      </div>
     </section>
 
-    <main>
-        <section id="profile" class="portfolio-section">
-            <h2>Profile</h2>
-            <p>
-                A proactive and fast learning individual seeking the opportunity for professional experience that will allow me to develop and expand my ability, knowledge, skills, and experience to help the company achieve business goals while sticking to the vision, mission, and values of the organization.
-            </p>
-        </section>
-        <section id="skills" class="portfolio-section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Good Management</li>
-                <li>MS Office</li>
-                <li>Quality and Assurance</li>
-                <li>Time Management</li>
-                <li>Data Analysis</li>
-                <li>Financial Analysis</li>
-                <li>Reporting (Excel)</li>
-                <li>Problem Solving</li>
-            </ul>
-        </section>
-        <section id="experience" class="portfolio-section">
-            <h2>Experience</h2>
-            <div>
-                <h4>Quality Assurance & Audit Executive</h4>
-                <span class="company">MTBC CareCloud</span>
-                <span class="period">Oct-2024 - Currently Working</span>
-                <ul>
-                    <li>Audited medical claims, charge entries, and payment postings for accuracy and compliance.</li>
-                    <li>Resolved workflow issues with billing, coding, and AR teams.</li>
-                    <li>Reduced claim denials and improved resolution rates.</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Account Manager OPS</h4>
-                <span class="company">MTBC CareCloud</span>
-                <span class="period">July-2022 - Oct-2024</span>
-                <ul>
-                    <li>Ensured HIPAA compliance and internal quality standards.</li>
-                    <li>Managed communication with Medical Insurance companies.</li>
-                    <li>Handled patient eligibility and verification projects.</li>
-                </ul>
-            </div>
-        </section>
-        <section id="education" class="portfolio-section">
-            <h2>Education</h2>
-            <ul>
-                <li>B.Com - University of Azad Jammu & Kashmir Muzaffarabad</li>
-                <li>F.SC - Mirpur board AJK</li>
-                <li>Matric - Mirpur board AJK</li>
-            </ul>
-        </section>
-        <section id="contact" class="portfolio-section">
-            <h2>Contact</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Message" rows="4" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
+    <!-- About Me Section -->
+    <section id="about" class="section">
+      <div class="container grid-2 reveal">
+        <div class="card">
+          <h2>About Me</h2>
+          <p>
+            I am a detail-oriented Revenue Cycle Management Specialist and Quality Assurance Executive with 3+ years of experience in healthcare operations and medical billing audits. My expertise covers the full revenue cycle process, including patient registration, insurance verification, charge capture, claim submission, payment posting, and denial management. I focus on reducing claim denials, maximizing reimbursement, and ensuring compliance with HIPAA and payer regulations.
+          </p>
+          <p>
+            I have hands-on experience with leading EHR and billing systems such as WebSoft, TalkEHR, CareCloud, Intergy, and AdvancedMD. I excel at collaborating with cross-functional teams to streamline workflows, improve billing accuracy, and optimize financial performance. My goal is to help healthcare providers achieve efficient revenue operations while maintaining the highest standards of compliance and quality.
+          </p>
+          <div class="stats">
+            <div class="stat"><span>3+</span><small>Years Experience</small></div>
+            <div class="stat"><span>95%</span><small>Accuracy Rate</small></div>
+            <div class="stat"><span>120+</span><small>Audits Completed</small></div>
+          </div>
+        </div>
+        <div class="card list-card">
+          <h3>Billing Software</h3>
+          <div class="chips">
+            <span class='chip'>WebSoft</span>
+            <span class='chip'>TalkEHR</span>
+            <span class='chip'>CareCloud</span>
+            <span class='chip'>Intergy</span>
+            <span class='chip'>AdvancedMD</span>
+          </div>
+          <h3 style="margin-top:16px;">Languages</h3>
+          <div class="chips"><span class='chip'>Urdu</span><span class='chip'>English</span></div>
+          <h3 style="margin-top:16px;">Interests</h3>
+          <div class="chips"><span class='chip'>Cricket</span><span class='chip'>Football</span><span class='chip'>Traveling</span></div>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-        &copy; 2025 Kashif Aziz. All rights reserved.
-    </footer>
-    <script src="script.js"></script>
+    <!-- Skills Section -->
+    <section id="skills" class="section muted">
+      <div class="container reveal">
+        <h2>Skills & Tools</h2>
+        <div class="grid-4">
+          <div class='skill-card card'>Good Management</div>
+          <div class='skill-card card'>MS Office</div>
+          <div class='skill-card card'>Quality Assurance</div>
+          <div class='skill-card card'>Time Management</div>
+          <div class='skill-card card'>Data Analysis</div>
+          <div class='skill-card card'>Financial Analysis</div>
+          <div class='skill-card card'>Reporting (Excel)</div>
+          <div class='skill-card card'>Problem Solving</div>
+          <div class='skill-card card'>Denial Management</div>
+          <div class='skill-card card'>Medical Billing Audits</div>
+          <div class='skill-card card'>HIPAA Compliance</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container reveal">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <article class='card timeline-item'>
+            <div class='item-head'>
+              <h3>Quality Assurance & Audit Executive</h3>
+              <span class='duration'>Oct 2024 – Present</span>
+            </div>
+            <p class='company'>MTBC CareCloud</p>
+            <ul>
+              <li>Conducted detailed audits of medical claims, charge entries, and payment postings for accuracy and compliance with client and payer guidelines.</li>
+              <li>Collaborated with billing, coding, and AR teams to resolve complex issues and streamline workflows.</li>
+              <li>Identified billing errors and discrepancies, reducing claim denials and improving first-pass resolution rates.</li>
+              <li>Ensured adherence to HIPAA regulations and internal quality standards across billing processes.</li>
+              <li>Handled inbound and outbound calls with medical insurance companies; supported claim queries and denial management.</li>
+              <li>Managed patient eligibility, benefits, and authorization verification tasks.</li>
+            </ul>
+          </article>
+
+          <article class='card timeline-item'>
+            <div class='item-head'>
+              <h3>Account Manager (OPS)</h3>
+              <span class='duration'>Jul 2022 – Oct 2024</span>
+            </div>
+            <p class='company'>MTBC CareCloud</p>
+            <ul>
+              <li>Managed client communication and escalations regarding claim-related queries and denials.</li>
+              <li>Coordinated cross-functional teams to meet SLAs and operational goals.</li>
+              <li>Supported audits and reporting to improve billing accuracy and cash flow.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certs" class="section muted">
+      <div class="container reveal">
+        <h2>Certifications</h2>
+        <div class="grid-2">
+          <div class='card cert-card'><span class='badge'>Certified</span><p>Lean Foundations Professional Certification (LFPC)</p></div>
+          <div class='card cert-card'><span class='badge'>Certified</span><p>Basics of Digital Marketing (Uniathena)</p></div>
+          <div class='card cert-card'><span class='badge'>Certified</span><p>Basics of Accounting (Uniathena)</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container reveal">
+        <h2>Education</h2>
+        <div class="grid-3">
+          <div class='card edu-card'><h3>B.Com</h3><p>University of Azad Jammu & Kashmir, Muzaffarabad</p></div>
+          <div class='card edu-card'><h3>F.Sc</h3><p>Mirpur Board, AJK</p></div>
+          <div class='card edu-card'><h3>Matric</h3><p>Mirpur Board, AJK</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section muted">
+      <div class="container reveal">
+        <h2>Contact</h2>
+        <div class="contact-cards">
+          <a class="card contact" href="mailto:kashifaziz392@gmail.com">📧 kashifaziz392@gmail.com</a>
+          <a class="card contact" href="tel:+92 344 970 6327">📞 +92 344 970 6327</a>
+          <a class="card contact" href="https://www.linkedin.com/in/kashif-aziz497" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
+          <div class="card contact">📍 Hudda Bari, Bagh, AJK, Pakistan</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 Kashif Aziz</div>
+  </footer>
 </body>
 </html>
